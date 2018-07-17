@@ -63,15 +63,13 @@ namespace AspNetCore_Luis_Dispatch_Bot
         {
             if (context.Activity.Type is ActivityTypes.Message)
             {
-                var client = new CCIIntentScorerClient("http://localhost:50335");
-                var score = await client.GetIntentScoreAsync(context.Activity.Text.Trim());
-
-                await context.SendActivity($"CCI intent:{score.IntentId} score: {score.RankScore}");
-
-
                 // Get the intent recognition result from the context object.
                 var dispatchResult = context.Services.Get<RecognizerResult>(LuisRecognizerMiddleware.LuisRecognizerResultKey) as RecognizerResult;
                 var topIntent = dispatchResult?.GetTopScoringIntent();
+
+                var cciResult = context.Services.Get<QueryIntentScore>(CCIRecognizerMiddleware.CCIRecognizerResultKey) as QueryIntentScore;
+                await context.SendActivity($"CCI intent:{cciResult.IntentId} score: {cciResult.RankScore}");
+
 
                 if (topIntent == null)
                 {

@@ -47,6 +47,7 @@ namespace AspNetCore_Luis_Dispatch_Bot
 
                 var middleware = options.Middleware;
                 middleware.Add(new LuisRecognizerMiddleware(luisModel, luisOptions: luisOptions));
+                middleware.Add(new CCIRecognizerMiddleware("http://localhost:50335"));
             });
         }
 
