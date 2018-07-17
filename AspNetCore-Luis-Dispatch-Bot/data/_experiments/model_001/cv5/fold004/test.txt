@@ -1,0 +1,27 @@
+Label	Weight	Text
+l_homeautomation	2.142857	silence the phone
+l_homeautomation	2.142857	make some coffee
+l_homeautomation	2.142857	turn on my bedroom lights .
+l_homeautomation	2.142857	lower your volume
+l_homeautomation	2.142857	turn off living room light
+l_homeautomation	2.142857	set lights out bedroom
+l_homeautomation	2.142857	turn thermostat on 70 .
+l_homeautomation	2.142857	silence the phone
+l_homeautomation	2.142857	make some coffee
+l_homeautomation	2.142857	turn on my bedroom lights .
+l_homeautomation	2.142857	lower your volume
+l_homeautomation	2.142857	turn off living room light
+l_homeautomation	2.142857	set lights out bedroom
+l_homeautomation	2.142857	turn thermostat on 70 .
+l_weather	2.5	show average rainfall for boise
+l_weather	2.5	will it rain this weekend
+l_weather	2.5	what is the weather in redmond ?
+l_weather	2.5	get the weather at saint george utah
+l_weather	2.5	soliciting today ' s weather
+l_weather	2.5	how much rain does chambersburg get a year
+l_weather	2.5	show average rainfall for boise
+l_weather	2.5	will it rain this weekend
+l_weather	2.5	what is the weather in redmond ?
+l_weather	2.5	get the weather at saint george utah
+l_weather	2.5	soliciting today ' s weather
+l_weather	2.5	how much rain does chambersburg get a year

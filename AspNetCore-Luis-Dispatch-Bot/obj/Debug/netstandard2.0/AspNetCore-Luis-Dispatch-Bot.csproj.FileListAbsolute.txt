@@ -1,0 +1,4 @@
+E:\DispatchDemo\AspNetCore-Luis-Dispatch-Bot\obj\Debug\netstandard2.0\AspNetCore-Luis-Dispatch-Bot.csprojAssemblyReference.cache
+E:\DispatchDemo\AspNetCore-Luis-Dispatch-Bot\obj\Debug\netstandard2.0\AspNetCore-Luis-Dispatch-Bot.csproj.CoreCompileInputs.cache
+E:\DispatchDemo\AspNetCore-Luis-Dispatch-Bot\obj\Debug\netstandard2.0\AspNetCore-Luis-Dispatch-Bot.AssemblyInfoInputs.cache
+E:\DispatchDemo\AspNetCore-Luis-Dispatch-Bot\obj\Debug\netstandard2.0\AspNetCore-Luis-Dispatch-Bot.AssemblyInfo.cs

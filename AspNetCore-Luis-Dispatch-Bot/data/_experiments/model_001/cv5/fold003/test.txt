@@ -1,0 +1,27 @@
+Label	Weight	Text
+l_homeautomation	2.142857	turn on thermostat please
+l_homeautomation	2.142857	living room lamps off please
+l_homeautomation	2.142857	illuminate please
+l_homeautomation	2.142857	turn dimmer off
+l_homeautomation	2.142857	decrease temperature for me please
+l_homeautomation	2.142857	turn on the furnace room lights
+l_homeautomation	2.142857	start master bedroom light .
+l_homeautomation	2.142857	turn on thermostat please
+l_homeautomation	2.142857	living room lamps off please
+l_homeautomation	2.142857	illuminate please
+l_homeautomation	2.142857	turn dimmer off
+l_homeautomation	2.142857	decrease temperature for me please
+l_homeautomation	2.142857	turn on the furnace room lights
+l_homeautomation	2.142857	start master bedroom light .
+l_weather	2.5	was last year about this time as wet as it is now in the south ?
+l_weather	2.5	what to wear in march in california
+l_weather	2.5	show me the forecast at alabama
+l_weather	2.5	will it snow today
+l_weather	2.5	show average rainfall for boise
+l_weather	2.5	will it rain this weekend
+l_weather	2.5	was last year about this time as wet as it is now in the south ?
+l_weather	2.5	what to wear in march in california
+l_weather	2.5	show me the forecast at alabama
+l_weather	2.5	will it snow today
+l_weather	2.5	show average rainfall for boise
+l_weather	2.5	will it rain this weekend

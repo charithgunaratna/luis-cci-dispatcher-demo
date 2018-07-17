@@ -1,0 +1,28 @@
+{
+  "authoringRegion": "westus",
+  "hierarchical": true,
+  "services": [
+    {
+      "appId": "56ce0ef0-f599-474b-afe0-7f541876dfed",
+      "authoringKey": "94a59ca0a8c54d22a239c434d0d8e602",
+      "version": "0.1",
+      "type": "luis",
+      "name": "homeautomation",
+      "id": "56ce0ef0-f599-474b-afe0-7f541876dfed"
+    },
+    {
+      "appId": "1370bd29-d42a-4f2f-809e-0759035cb5cb",
+      "authoringKey": "94a59ca0a8c54d22a239c434d0d8e602",
+      "version": "0.1",
+      "type": "luis",
+      "name": "weather",
+      "id": "1370bd29-d42a-4f2f-809e-0759035cb5cb"
+    }
+  ],
+  "appId": "f2112448-b64d-4da4-bde6-57923d16964b",
+  "authoringKey": "94a59ca0a8c54d22a239c434d0d8e602",
+  "version": "Dispatch",
+  "type": "dispatch",
+  "name": "CombineWeatherAndLights",
+  "id": "f2112448-b64d-4da4-bde6-57923d16964b"
+}

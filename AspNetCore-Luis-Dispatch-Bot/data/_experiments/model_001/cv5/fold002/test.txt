@@ -1,0 +1,27 @@
+Label	Weight	Text
+l_homeautomation	2.142857	turn on bathroom heater
+l_homeautomation	2.142857	dim kitchen lights to 25 .
+l_homeautomation	2.142857	turn off ac please
+l_homeautomation	2.142857	make camera 1 off please
+l_homeautomation	2.142857	turn off foyer lights
+l_homeautomation	2.142857	theater on please
+l_homeautomation	2.142857	set lights concentrate
+l_homeautomation	2.142857	turn on bathroom heater
+l_homeautomation	2.142857	dim kitchen lights to 25 .
+l_homeautomation	2.142857	turn off ac please
+l_homeautomation	2.142857	make camera 1 off please
+l_homeautomation	2.142857	turn off foyer lights
+l_homeautomation	2.142857	theater on please
+l_homeautomation	2.142857	set lights concentrate
+l_weather	2.5	what is the weather today at 10 day durham ?
+l_weather	2.5	\" tell me perth weather , sclimate & temperature at australia \
+l_weather	2.5	what will the weather be tomorrow in accord new york ?
+l_weather	2.5	current weather ?
+l_weather	2.5	get the daily temperature greenwood indiana
+l_weather	2.5	will it be raining in ranchi
+l_weather	2.5	what is the weather today at 10 day durham ?
+l_weather	2.5	\" tell me perth weather , sclimate & temperature at australia \
+l_weather	2.5	what will the weather be tomorrow in accord new york ?
+l_weather	2.5	current weather ?
+l_weather	2.5	get the daily temperature greenwood indiana
+l_weather	2.5	will it be raining in ranchi
