@@ -40,18 +40,7 @@ namespace AspNetCore_Luis_Dispatch_Bot
 
             (luisModelId, luisSubscriptionKey, luisUri) = Startup.GetLuisConfiguration(configuration, "Weather");
             this.luisModelWeather = new LuisModel(luisModelId, luisSubscriptionKey, luisUri);
-
-            //var (knowledgeBaseId, subscriptionKey, qnaUrl) = Startup.GetQnAMakerConfiguration(configuration);
-            //this.qnaEndpoint = new QnAMakerEndpoint
-            //{
-            //    // add subscription key for QnA and knowledge base ID
-            //    EndpointKey = subscriptionKey,
-            //    KnowledgeBaseId = knowledgeBaseId,
-            //    Host = qnaUrl
-            //};
         }
-
-        // private QnAMakerEndpoint qnaEndpoint;
 
         // App ID for a LUIS model named "homeautomation"
         private LuisModel luisModelHomeAutomation;
@@ -106,33 +95,11 @@ namespace AspNetCore_Luis_Dispatch_Bot
                     // Here, you can add code for calling the hypothetical weather service, passing in any entity information that you need
                     break;
                 case "none":
-                // You can provide logic here to handle the known None intent (none of the above).
-                // In this example we fall through to the QnA intent.
-                //case "q_faq":
-                //    await DispatchToQnAMaker(context, this.qnaEndpoint, "FAQ");
-                //    break;
                 default:
                     // The intent didn't match any case, so just display the recognition results.
                     await context.SendActivity($"Dispatch intent: {topIntent.Value.intent} ({topIntent.Value.score}).");
 
                     break;
-            }
-        }
-
-        private static async Task DispatchToQnAMaker(ITurnContext context, QnAMakerEndpoint qnaOptions, string appName)
-        {
-            QnAMaker qnaMaker = new QnAMaker(qnaOptions);
-            if (!string.IsNullOrEmpty(context.Activity.Text))
-            {
-                var results = await qnaMaker.GetAnswers(context.Activity.Text.Trim()).ConfigureAwait(false);
-                if (results.Any())
-                {
-                    await context.SendActivity(results.First().Answer);
-                }
-                else
-                {
-                    await context.SendActivity($"Couldn't find an answer in the {appName}.");
-                }
             }
         }
 
