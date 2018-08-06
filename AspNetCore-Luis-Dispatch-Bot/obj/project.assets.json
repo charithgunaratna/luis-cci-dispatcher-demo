@@ -1527,6 +1527,20 @@
           "lib/netstandard2.0/Microsoft.Bot.Builder.Core.Extensions.dll": {}
         }
       },
+      "Microsoft.Bot.Builder.Dialogs/4.0.1-preview": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bot.Builder.Core": "4.0.1-preview",
+          "Microsoft.Bot.Builder.Prompts": "4.0.1-preview",
+          "Microsoft.Bot.Schema": "4.0.1-preview"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Bot.Builder.Dialogs.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Bot.Builder.Dialogs.dll": {}
+        }
+      },
       "Microsoft.Bot.Builder.Integration.AspNet.Core/4.0.1-preview": {
         "type": "package",
         "dependencies": {
@@ -1544,6 +1558,25 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Bot.Builder.Integration.AspNet.Core.dll": {}
+        }
+      },
+      "Microsoft.Bot.Builder.Prompts/4.0.1-preview": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bot.Builder.Core": "4.0.1-preview",
+          "Microsoft.Bot.Builder.Core.Extensions": "4.0.1-preview",
+          "Microsoft.Bot.Schema": "4.0.1-preview",
+          "Microsoft.Recognizers.Text": "1.0.3",
+          "Microsoft.Recognizers.Text.DateTime": "1.0.3",
+          "Microsoft.Recognizers.Text.Number": "1.0.3",
+          "Microsoft.Recognizers.Text.NumberWithUnit": "1.0.3",
+          "Microsoft.Recognizers.Text.Sequence": "1.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Bot.Builder.Prompts.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Bot.Builder.Prompts.dll": {}
         }
       },
       "Microsoft.Bot.Connector/4.0.1-preview": {
@@ -2718,6 +2751,76 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.Recognizers.Text/1.0.3": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections.Immutable": "1.4.0",
+          "System.ValueTuple": "4.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Recognizers.Definitions.dll": {},
+          "lib/netstandard2.0/Microsoft.Recognizers.Text.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Recognizers.Definitions.dll": {},
+          "lib/netstandard2.0/Microsoft.Recognizers.Text.dll": {}
+        }
+      },
+      "Microsoft.Recognizers.Text.DateTime/1.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Recognizers.Text": "1.0.3",
+          "Microsoft.Recognizers.Text.Number": "1.0.3",
+          "Microsoft.Recognizers.Text.NumberWithUnit": "1.0.3",
+          "System.Collections.Immutable": "1.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Recognizers.Text.DateTime.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Recognizers.Text.DateTime.dll": {}
+        }
+      },
+      "Microsoft.Recognizers.Text.Number/1.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Recognizers.Text": "1.0.3",
+          "System.Collections.Immutable": "1.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Recognizers.Text.Number.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Recognizers.Text.Number.dll": {}
+        }
+      },
+      "Microsoft.Recognizers.Text.NumberWithUnit/1.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Recognizers.Text": "1.0.3",
+          "Microsoft.Recognizers.Text.Number": "1.0.3",
+          "System.Collections.Immutable": "1.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Recognizers.Text.NumberWithUnit.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Recognizers.Text.NumberWithUnit.dll": {}
+        }
+      },
+      "Microsoft.Recognizers.Text.Sequence/1.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Recognizers.Text": "1.0.3",
+          "System.Collections.Immutable": "1.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Recognizers.Text.Sequence.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Recognizers.Text.Sequence.dll": {}
         }
       },
       "Microsoft.Rest.ClientRuntime/2.3.10": {
@@ -5891,6 +5994,17 @@
         "microsoft.bot.builder.core.extensions.nuspec"
       ]
     },
+    "Microsoft.Bot.Builder.Dialogs/4.0.1-preview": {
+      "sha512": "kkcyTK0S8pSJzWEOohS1zyPYQWzBT07SdEbipjflj9q0J3mbtPd12tIkhzSMTG7IWGuIS97Dw+nWEzCLPvId5w==",
+      "type": "package",
+      "path": "microsoft.bot.builder.dialogs/4.0.1-preview",
+      "files": [
+        "lib/netstandard2.0/Microsoft.Bot.Builder.Dialogs.dll",
+        "lib/netstandard2.0/Microsoft.Bot.Builder.Dialogs.xml",
+        "microsoft.bot.builder.dialogs.4.0.1-preview.nupkg.sha512",
+        "microsoft.bot.builder.dialogs.nuspec"
+      ]
+    },
     "Microsoft.Bot.Builder.Integration.AspNet.Core/4.0.1-preview": {
       "sha512": "zyquy5wMHptKAcFanbvdlJuDrEUuDQdzgGbad9Srmqwpfokgyu34b4rrHEAd/U+43gjr7g1gCHtfjDtIt8p8Bw==",
       "type": "package",
@@ -5900,6 +6014,17 @@
         "lib/netstandard2.0/Microsoft.Bot.Builder.Integration.AspNet.Core.xml",
         "microsoft.bot.builder.integration.aspnet.core.4.0.1-preview.nupkg.sha512",
         "microsoft.bot.builder.integration.aspnet.core.nuspec"
+      ]
+    },
+    "Microsoft.Bot.Builder.Prompts/4.0.1-preview": {
+      "sha512": "Cz99kmyYqnaWUFjrouQz4BfuUg8yTN7CfvbUs8hqfszTo+6Y8jLLmuH9f8XHyyw/vNUI6tcLmXhYZ8AQcPGKcA==",
+      "type": "package",
+      "path": "microsoft.bot.builder.prompts/4.0.1-preview",
+      "files": [
+        "lib/netstandard2.0/Microsoft.Bot.Builder.Prompts.dll",
+        "lib/netstandard2.0/Microsoft.Bot.Builder.Prompts.xml",
+        "microsoft.bot.builder.prompts.4.0.1-preview.nupkg.sha512",
+        "microsoft.bot.builder.prompts.nuspec"
       ]
     },
     "Microsoft.Bot.Connector/4.0.1-preview": {
@@ -7418,6 +7543,75 @@
         "microsoft.netcore.targets.1.1.0.nupkg.sha512",
         "microsoft.netcore.targets.nuspec",
         "runtime.json"
+      ]
+    },
+    "Microsoft.Recognizers.Text/1.0.3": {
+      "sha512": "FtrIf93OLq6KZQ+PagnbkqGS8Nqosa8/v2h1VNUlHqEgQSou+OKKNmGA1L4Kz8XvGFkPnm5lzwTC6BepbZEMlg==",
+      "type": "package",
+      "path": "microsoft.recognizers.text/1.0.3",
+      "files": [
+        "lib/net45/Microsoft.Recognizers.Definitions.dll",
+        "lib/net45/Microsoft.Recognizers.Text.dll",
+        "lib/net452/Microsoft.Recognizers.Definitions.dll",
+        "lib/net452/Microsoft.Recognizers.Text.dll",
+        "lib/net462/Microsoft.Recognizers.Definitions.dll",
+        "lib/net462/Microsoft.Recognizers.Text.dll",
+        "lib/netstandard2.0/Microsoft.Recognizers.Definitions.dll",
+        "lib/netstandard2.0/Microsoft.Recognizers.Text.dll",
+        "microsoft.recognizers.text.1.0.3.nupkg.sha512",
+        "microsoft.recognizers.text.nuspec"
+      ]
+    },
+    "Microsoft.Recognizers.Text.DateTime/1.0.3": {
+      "sha512": "kYxgWZ/Wf54twQKeCfQOYGVll9mnTJ/lSYF6l2rzFwUP+hOsN5jlvqys5qmYfDYVae23kPmC863BSPdHsjI7ZA==",
+      "type": "package",
+      "path": "microsoft.recognizers.text.datetime/1.0.3",
+      "files": [
+        "lib/net45/Microsoft.Recognizers.Text.DateTime.dll",
+        "lib/net452/Microsoft.Recognizers.Text.DateTime.dll",
+        "lib/net462/Microsoft.Recognizers.Text.DateTime.dll",
+        "lib/netstandard2.0/Microsoft.Recognizers.Text.DateTime.dll",
+        "microsoft.recognizers.text.datetime.1.0.3.nupkg.sha512",
+        "microsoft.recognizers.text.datetime.nuspec"
+      ]
+    },
+    "Microsoft.Recognizers.Text.Number/1.0.3": {
+      "sha512": "eVkhM1U+fB9FofsiD26CShd3oK2iJ4JAudCgM3BAigmPE0m4E2b8Dp4+6yooPT01vjbdlNBbr7Ax+2QSj34jLw==",
+      "type": "package",
+      "path": "microsoft.recognizers.text.number/1.0.3",
+      "files": [
+        "lib/net45/Microsoft.Recognizers.Text.Number.dll",
+        "lib/net452/Microsoft.Recognizers.Text.Number.dll",
+        "lib/net462/Microsoft.Recognizers.Text.Number.dll",
+        "lib/netstandard2.0/Microsoft.Recognizers.Text.Number.dll",
+        "microsoft.recognizers.text.number.1.0.3.nupkg.sha512",
+        "microsoft.recognizers.text.number.nuspec"
+      ]
+    },
+    "Microsoft.Recognizers.Text.NumberWithUnit/1.0.3": {
+      "sha512": "VBE/GCIHnxen7Do4S0OU7gcUnh8+dp7/z/GCcfNDerRcrNcmBJHhPznH1+MCNgsQ9lt1PmjmHUueRCcs+xDfmg==",
+      "type": "package",
+      "path": "microsoft.recognizers.text.numberwithunit/1.0.3",
+      "files": [
+        "lib/net45/Microsoft.Recognizers.Text.NumberWithUnit.dll",
+        "lib/net452/Microsoft.Recognizers.Text.NumberWithUnit.dll",
+        "lib/net462/Microsoft.Recognizers.Text.NumberWithUnit.dll",
+        "lib/netstandard2.0/Microsoft.Recognizers.Text.NumberWithUnit.dll",
+        "microsoft.recognizers.text.numberwithunit.1.0.3.nupkg.sha512",
+        "microsoft.recognizers.text.numberwithunit.nuspec"
+      ]
+    },
+    "Microsoft.Recognizers.Text.Sequence/1.0.3": {
+      "sha512": "IURIhuVRZlu70ZjjHgrQUPHrStjTX0PhM8wTVhALev/uLVbTiAETbyjG89VNRa0uXYf740Wl+3Vnh6r5IRGnWg==",
+      "type": "package",
+      "path": "microsoft.recognizers.text.sequence/1.0.3",
+      "files": [
+        "lib/net45/Microsoft.Recognizers.Text.Sequence.dll",
+        "lib/net452/Microsoft.Recognizers.Text.Sequence.dll",
+        "lib/net462/Microsoft.Recognizers.Text.Sequence.dll",
+        "lib/netstandard2.0/Microsoft.Recognizers.Text.Sequence.dll",
+        "microsoft.recognizers.text.sequence.1.0.3.nupkg.sha512",
+        "microsoft.recognizers.text.sequence.nuspec"
       ]
     },
     "Microsoft.Rest.ClientRuntime/2.3.10": {
@@ -12577,6 +12771,7 @@
       "Microsoft.Bot.Builder.Ai.LUIS >= 4.0.1-preview",
       "Microsoft.Bot.Builder.Ai.QnA >= 4.0.1-preview",
       "Microsoft.Bot.Builder.Core >= 4.0.1-preview",
+      "Microsoft.Bot.Builder.Dialogs >= 4.0.1-preview",
       "Microsoft.Bot.Builder.Integration.AspNet.Core >= 4.0.1-preview",
       "Microsoft.NETCore.App >= 2.0.0",
       "Newtonsoft.Json >= 11.0.2"
@@ -12637,6 +12832,10 @@
             "version": "[4.0.1-preview, )"
           },
           "Microsoft.Bot.Builder.Core": {
+            "target": "Package",
+            "version": "[4.0.1-preview, )"
+          },
+          "Microsoft.Bot.Builder.Dialogs": {
             "target": "Package",
             "version": "[4.0.1-preview, )"
           },

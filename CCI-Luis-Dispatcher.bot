@@ -9,7 +9,7 @@
             "type": "endpoint",
             "appId": "e34ea841-ba2a-4ae9-b972-4ad59932c7aa",
             "appPassword": "mdodrEJBX93(#kfINC617?|",
-            "endpoint": "https://578946ed.ngrok.io/api/messages"
+            "endpoint": "http://localhost:63857/api/messages"
         }
     ]
 }

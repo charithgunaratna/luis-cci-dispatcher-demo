@@ -59,6 +59,11 @@ namespace AspNetCore_Luis_Dispatch_Bot
                 var cciResult = context.Services.Get<QueryIntentScore>(CCIRecognizerMiddleware.CCIRecognizerResultKey) as QueryIntentScore;
                 await context.SendActivity($"CCI intent:{cciResult.IntentId} score: {cciResult.RankScore}");
 
+                if(cciResult.IntentId == "Name")
+                {
+                    Conversation
+                }
+
 
                 if (topIntent == null)
                 {
